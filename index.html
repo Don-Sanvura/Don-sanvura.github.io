@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Word - Daily Bible Scriptures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1><i class="fas fa-bible"></i> God's Word</h1>
+            <p class="subtitle">Daily Nourishment from the Scriptures</p>
+            <div class="verse-of-day">
+                <h2><i class="fas fa-star"></i> Verse of the Day</h2>
+                <p class="verse" id="dailyVerse">"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."</p>
+                <p class="reference" id="dailyRef">John 3:16 (NIV)</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="scriptures">
+            <h2><i class="fas fa-book-open"></i> Bible Scriptures</h2>
+            
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All Verses</button>
+                <button class="category-btn" data-category="love">Love & Hope</button>
+                <button class="category-btn" data-category="strength">Strength & Courage</button>
+                <button class="category-btn" data-category="peace">Peace & Comfort</button>
+                <button class="category-btn" data-category="faith">Faith & Trust</button>
+            </div>
+
+            <div class="verses-container">
+                <!-- Verses will be dynamically added here -->
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Daily Reading</h3>
+                <p>Start your day with scripture</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-heart"></i>
+                <h3>Encouragement</h3>
+                <p>Find strength in God's promises</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-search"></i>
+                <h3>Search</h3>
+                <p>Find verses by topic</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><i class="fas fa-cross"></i> "Your word is a lamp for my feet, a light on my path." - Psalm 119:105</p>
+            <p class="footer-links">
+                <a href="#"><i class="fab fa-github"></i> GitHub</a> | 
+                <a href="#"><i class="fas fa-code"></i> Source</a> | 
+                <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+            </p>
+            <p class="copyright">© 2023 God's Word | Free Bible Scriptures</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
